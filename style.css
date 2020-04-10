@@ -1,0 +1,116 @@
+/* navigacijos baras*/
+
+ul {
+  list-style-type: none;
+  margin: center;
+  padding: center;
+  overflow: hidden;
+  background-color: #2f467f78;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+/* navigacijos baro pabaiga*/
+
+
+/* nuotrauka su stabilizatoriumi*/
+body, html {
+  height: 100%;
+
+  /* The image used */
+  background-image: url("../Nuotrauka/P8235587.jpg");
+ 
+
+    
+
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    border-image-width: 100%;
+    border-bottom: 100%;
+}
+
+/* nuotraukos su stabilizatoriumi pabaiga */
+
+ /*body1, html {
+     background-image: url("../Nuotrauka/IMG_0971.JPG");
+     height: 95%;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     border-image-width: 100%;
+     padding-bottom: 1000px;
+    padding-top: -1500px;
+     
+}
+
+*/
+
+body1, html {
+    background-color: antiquewhite;
+}
+
+
+.container {
+    position: relative;
+}
+   
+ 
+    .tekstas p {
+  position: absolute;
+  border-radius: 10px;
+  right: 10px;
+  left: 50px;
+  background-color: #ff67;
+  color: black;
+  text-align:center;
+  transform: rotate(0deg);
+  padding: 10px 10px 10px 10px;
+  border-left: 0px;
+  
+      
+}
+
+
+
+p {
+   display: flex;
+    left: 0px;
+    min-width: 10px;
+    max-width: 90px;
+}
+
+.gallery1 {
+   transform: rotate(90deg);
+    display: inline-flex;
+ }
+
+.gallery1 {
+    padding: 200px;
+    padding-left: 180px;
+    padding-top: 70px;
+}
+
+
+
+.gallery2 {
+    transform: rotate(90deg);
+}
